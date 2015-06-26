@@ -1,14 +1,14 @@
 # GoProLapseChange
 GoPro Hero 2014 Entry Level, Change Time Lapse Script
 
-Simple script to use multiple timelapse option from GoPro Hero 2014 Entry Level, This 129USD entry level action cam only let you using the default 0.5 second timelapse setting, means it will capture image every 0.5 second, using this simple script, we can "select" file from the 0.5 second sequence to create our new sequence file before we put into video editor
+Simple script to use multiple timelapse option from GoPro Hero 2014 Entry Level, This 129USD entry level action cam only let you using the default 0.5 second timelapse setting, means it will capture image every 0.5 second, so instead of "hacking" the firmware just let gopro hero take normal 0.5s timelapse setting, then after we got those timelapse file sequence we can using this simple script to "select" our new lapse sequence file before we put into video editor
 
 # Note
 - Works with python
 - Developed and tested using windows 7
 
 # How To Use:
-1. Put this script under your "Time Lapse" folder that contains for *.JPG files
+1. Put this script under your "Time Lapse" folder that contains *.JPG files
 2. Just double click ( make sure your python windows path is enabled )
 3. The script will asked you the new variable for time lapse ( use below table as guide )
 
@@ -18,6 +18,8 @@ Simple script to use multiple timelapse option from GoPro Hero 2014 Entry Level,
 - 5s --> 10
 - 10s --> 20
 - 30s --> 30
+
+x = selected file
 
 | Second | SequenceFile | 1s = 2 | 2s = 4 | 5s = 10 | 10s = 20 | 30s = 60 |
 |--------|--------------|--------|--------|---------|----------|----------|
