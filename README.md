@@ -12,11 +12,12 @@ Simple script to use multiple timelapse option from GoPro Hero 2014 Entry Level,
 2. Just double click ( make sure your python windows path is enabled )
 3. The script will asked you the new variable for time lapse ( use below table as guide )
 
-1s --> 2
-2s --> 4
-5s --> 10
-10s --> 20
-30s --> 30
+# New Lapse Variable input
+- 1s --> 2
+- 2s --> 4
+- 5s --> 10
+- 10s --> 20
+- 30s --> 30
 
 | Second | SequenceFile | 1s = 2 | 2s = 4 | 5s = 10 | 10s = 20 | 30s = 60 |
 |--------|--------------|--------|--------|---------|----------|----------|
